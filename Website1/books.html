@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" media="all" href="inland.css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<title>Bharathi Book Club</title>
+</head>
+
+<body>
+<div id="wrapper960" class="clearfix">
+	<div id="header" class="clearfix">
+		<div id="sitetitle" class="clearfix">
+			<h1><a href="index.html">Bharathi Book Club</a></h1>
+		</div>
+
+		<div id="nav" class="clearfix">
+			<ul>
+				<li><a  href="index.html">Home</a></li>
+				<li><a class="current" href="index.html">Books</a></li>
+				<li><a href="index.html">Members</a></li>
+				<li><a href="index.html">Rules and Regulations</a></li>
+				<li><a href="index.html">About</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="slider-wrapper">
+		<div id="slider" class="nivoSlider">
+			<img src="images/Book1.png" alt="" />
+			<img src="images/Book2.jpg" alt="" />
+			<img src="images/Book3.jpg" alt="" />
+			<img src="images/Book4.jpg" alt="" />
+			<img src="images/Book5.jpg" alt="" />
+		</div>
+	</div>
+	<div id="content" class="clearfix shadow">
+	<h2>Lend IT !!</h2>
+		 <li><ul>Using the following form you can Lend your book to your fellow club Memebers!!</ul>
+		 <p>You can add you favorite books to the BBC catalog. Interested members would reach you and you can share it with them.</p></li>
+     </div>
+   <!--div class="form">
+       <div id="fixform" class="fill_form">
+	   <form action="insertBooks.thiru" method="post">
+       <table> 
+	   <tr><td>Book Name</td>
+       <td><input type="text" name="bname"></td></tr>
+       <tr><td>Book Author</td>
+       <td><input type="text" name="bathr"></td></tr>
+       <tr><td>Book Publisher</td>
+       <td><input type="text" name="bpub"></td></tr>
+        <tr><td>Book Type</td>
+        <td><input type="text" name="btype"></td></tr>
+        <tr><td colspan="2"><input type="submit"></td></tr>
+		</table>
+		</form>
+	   </div-->
+	   
+	     <div id="stylized" class="myform">
+		<form id="form" name="form" method="post" action="index.html">
+		<h1>Book Entry Form</h1>
+
+		<label>Book Name
+		<span class="small">Add Book name</span>
+		</label>
+		<input type="text" name="name" id="name" />
+		
+		
+		<label>Book Author
+		<span class="small">Add Book Author name</span>
+		</label>
+		<input type="text" name="name" id="name" />
+		
+		<label>Book Type
+		<span class="small">Add Book Type</span>
+		</label>
+		<input type="text" name="name" id="name" />
+		
+		<label>Owner Name
+		<span class="small">Add Owner Name</span>
+		</label>
+		<input type="text" name="name" id="name" />
+		
+		<label>Owner Email ID
+		<span class="small">Add a valid address</span>
+		</label>
+		<input type="text" name="email" id="email" />
+
+		<!--label>Password
+		<span class="small">Min. size 6 chars</span>
+		</label>
+		<input type="text" name="password" id="password" /-->
+
+		<button type="submit">Add this Book To Catalog</button>
+		<div class="spacer"></div>
+
+		</form>
+		</div>
+		<div id="footer" class="shadow">
+		<p>&copy; 2012 BBC | <a href="#BBC">Template design</a> by <a href="#BBC">BBC</a><br /></p>
+	</div>
+   </div>
+<script type="text/javascript">
+	$(window).load(function() {
+		$('#slider').nivoSlider();
+	});
+</script>
+</body>
+</html>
